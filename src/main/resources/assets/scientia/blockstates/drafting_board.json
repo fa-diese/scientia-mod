@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "scientia:block/drafting_board"
+    },
+    "facing=south": {
+      "model": "scientia:block/drafting_board",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "scientia:block/drafting_board",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "scientia:block/drafting_board",
+      "y": 90
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "scientia:block/collation_table"
+    },
+    "facing=south": {
+      "model": "scientia:block/collation_table",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "scientia:block/collation_table",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "scientia:block/collation_table",
+      "y": 90
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "scientia:block/microscope"
+    },
+    "facing=south": {
+      "model": "scientia:block/microscope",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "scientia:block/microscope",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "scientia:block/microscope",
+      "y": 90
+    }
+  }
+}

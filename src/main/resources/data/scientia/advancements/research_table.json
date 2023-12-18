@@ -1,0 +1,36 @@
+{
+  "parent": "scientia:root",
+  "display": {
+    "icon": {
+      "item": "scientia:research_table"
+    },
+    "title": {
+      "translate": "advancement.research_table.title"
+    },
+    "description": {
+      "translate": "advancement.research_table.description"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "research_table": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "scientia:research_table"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "research_table"
+    ]
+  ]
+}

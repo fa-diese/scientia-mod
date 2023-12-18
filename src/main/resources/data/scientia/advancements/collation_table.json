@@ -1,0 +1,36 @@
+{
+  "parent": "scientia:root",
+  "display": {
+    "icon": {
+      "item": "scientia:collation_table"
+    },
+    "title": {
+      "translate": "advancement.collation_table.title"
+    },
+    "description": {
+      "translate": "advancement.collation_table.description"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "collation_table": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "scientia:collation_table"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "collation_table"
+    ]
+  ]
+}

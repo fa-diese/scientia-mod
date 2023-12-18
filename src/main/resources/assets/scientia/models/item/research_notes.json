@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "scientia:item/research_notes",
+    "layer1": "scientia:item/research_notes_header"
+  }
+}

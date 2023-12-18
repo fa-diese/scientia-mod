@@ -1,0 +1,44 @@
+{
+  "itemGroup.scientia_tab": "Scientia",
+
+  "block.scientia.research_table": "Research Table",
+  "block.scientia.collation_table": "Collation Table",
+  "block.scientia.test_tube_rack": "Test Tube Rack",
+  "block.scientia.microscope": "Microscope",
+  "block.scientia.drafting_board": "Drafting Board",
+  "block.scientia.dissection_tools": "Dissection Tools",
+  "block.scientia.retort": "Retort",
+  "block.scientia.crucible": "Crucible",
+
+  "item.scientia.research_notes": "Research Notes",
+  "item.scientia.failed_experiment_note": "Failed Experiment Note",
+  "item.scientia.crumpled_paper_ball": "Crumpled Paper Ball",
+
+  "gui.topic.tooltip": "Topic : ",
+  "gui.topic.tooltip.header": "Compatible research topics : ",
+  "gui.failure.tooltip.header": "Compatible failure notes : ",
+  "gui.tools.tooltip.header": "Available research tools : ",
+  "gui.no_additive.tooltip.header": "No additive required",
+  "gui.additives.tooltip.header": "Available additives : ",
+  "gui.researchNote.noTopic": "No topic",
+  "gui.researchNote.complete":  "complete",
+  "gui.researchNote.incomplete": "incomplete",
+  "gui.books.header": "Books :",
+  "gui.level_cost.header": "Cost :",
+  "gui.chances.header": "Chances :",
+
+  "gui.chances.low": "Low",
+  "gui.chances.medium_low": "Medium low",
+  "gui.chances.medium": "Medium",
+  "gui.chances.medium_high": "Medium high",
+  "gui.chances.high": "High",
+
+  "advancement.root.title": "Scientia",
+  "advancement.root.description": "The call of Science",
+  "advancement.research_table.title": "Experiment. Fail, Learn. Repeat.",
+  "advancement.research_table.description": "Craft your first Research Table with some paper and planks.",
+  "advancement.collation_table.title": "Font of all knowledge",
+  "advancement.collation_table.description": "Craft your first Collation Table with some books and planks.",
+  "advancement.subjects.title": "Subjects",
+  "advancement.subjects.description": "A list of all your potential subjects of study."
+}

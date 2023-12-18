@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": {
+      "tag": "minecraft:wooden_slabs"
+    },
+    "#": {
+      "item": "minecraft:glass_bottle"
+    }
+  },
+  "pattern": [
+    "XXX",
+    "###",
+    "XXX"
+  ],
+  "result": {
+    "item": "scientia:test_tube_rack"
+  }
+}

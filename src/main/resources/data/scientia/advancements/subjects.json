@@ -1,0 +1,22 @@
+{
+  "parent": "scientia:root",
+  "display": {
+    "icon": {
+      "item": "scientia:retort"
+    },
+    "title": {
+      "translate": "advancement.subjects.title"
+    },
+    "description": {
+      "translate": "advancement.subjects.description"
+    },
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "always": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

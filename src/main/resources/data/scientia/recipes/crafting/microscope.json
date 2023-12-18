@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": {
+      "item": "minecraft:copper_ingot"
+    },
+    "#": {
+      "item": "minecraft:glass"
+    }
+  },
+  "pattern": [
+    "X#X",
+    "X X",
+    "X#X"
+  ],
+  "result": {
+    "item": "scientia:microscope"
+  }
+}

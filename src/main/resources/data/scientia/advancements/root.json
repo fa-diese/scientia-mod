@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "scientia:test_tube_rack"
+    },
+    "title": {
+      "translate": "advancement.root.title"
+    },
+    "description": {
+      "translate": "advancement.root.description"
+    },
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true,
+    "background": "minecraft:textures/block/sandstone_top.png"
+  },
+  "criteria": {
+    "always": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

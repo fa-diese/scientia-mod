@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": {
+      "item": "minecraft:iron_ingot"
+    },
+    "#": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "pattern": [
+    "X X",
+    "#X#"
+  ],
+  "result": {
+    "item": "scientia:dissection_tools"
+  }
+}

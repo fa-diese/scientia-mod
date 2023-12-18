@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "scientia:item/failed_experiment_note",
+    "layer1": "scientia:item/failed_experiment_note_header"
+  }
+}
