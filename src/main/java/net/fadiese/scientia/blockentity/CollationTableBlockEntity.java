@@ -161,7 +161,8 @@ public class CollationTableBlockEntity extends BlockEntity implements MenuProvid
                 }
                 setChanged = true;
             } else {
-                int calculatedChance = (int) Math.ceil(recipe.get().getThresholdChances(collationTableT.inventory) * 5);
+                double threshold = recipe.get().getThresholdChances(collationTableT.inventory);
+                int calculatedChance = threshold < 1 ? (int) Math.ceil(threshold * 5) : 5;
                 if (collationTableT.hasRecipe != 1 || collationTableT.chanceCategory != calculatedChance || collationTableT.requiredKnowledge != recipe.get().knowledgeLevel() || collationTableT.levelCost != recipe.get().levelCost() || collationTableT.progress != 0 || collationTableT.maxProgress != recipe.get().duration()) {
                     setChanged = true;
                     collationTableT.hasRecipe = 1;
