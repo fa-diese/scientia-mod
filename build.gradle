@@ -71,7 +71,7 @@ minecraft {
             property 'forge.enabledGameTestNamespaces', 'scientia'
 
             mods {
-                scoentia {
+                scientia {
                     source sourceSets.main
                 }
             }

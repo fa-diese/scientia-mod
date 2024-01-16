@@ -146,7 +146,7 @@ public class CollationTableScreen extends AbstractContainerScreen<CollationTable
         } else {
             this.font.draw(pPoseStack, chancesHeader, leftPos + 107 - this.font.width(chancesHeader), topPos + 39, 11711154);
         }
-        String knowledgeValues = str.append(menu.getRequiredKnowledgeLevel()).append(" / ").append(menu.getKnowledgeLevel()).toString();
+        String knowledgeValues = str.append(menu.getKnowledgeLevel()).append(" / ").append(menu.getRequiredKnowledgeLevel()).toString();
         if (menu.hasRecipe() && !menu.hasRequiredKnowledgeLevel()) {
             this.font.draw(pPoseStack, booksHeader, leftPos + 107 - this.font.width(booksHeader), topPos + 11, 6381646);
             this.font.draw(pPoseStack, knowledgeValues, leftPos + 154 - this.font.width(knowledgeValues), topPos + 11, 10042687);
